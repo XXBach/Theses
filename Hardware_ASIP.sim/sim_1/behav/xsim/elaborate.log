@@ -1,0 +1,92 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado2024_1/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ASIP_one_one_tb_behav xil_defaultlib.ASIP_one_one_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'data_r_OM' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/master_core.v:360]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'data_w_OM' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/master_core.v:361]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'data_w_DNN' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/master_core.v:372]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'data_r_DNN' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/master_core.v:373]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'data_write' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/ASIP.v:219]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'data_MC_read_OB' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/ASIP.v:244]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:875]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:284]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:380]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:390]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:400]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:410]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:564]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:574]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:584]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:594]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:753]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:763]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:773]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:783]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:823]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:855]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:932]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:942]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:952]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:962]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1015]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1026]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1060]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1097]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1107]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1117]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1127]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wen' [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sources_1/new/slave_core.v:1207]
+WARNING: [VRFC 10-5021] port 'select' is not connected on this instance [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_one_one_tb.sv:101]
+WARNING: [VRFC 10-5021] port 'select' is not connected on this instance [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_one_one_tb.sv:175]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.memory(DATA_WIDTH=32,SIZE=4096)
+Compiling module xil_defaultlib.MC_decoder
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.branch_decision
+Compiling module xil_defaultlib.mux4_32bit
+Compiling module xil_defaultlib.mux8_32bit
+Compiling module xil_defaultlib.register(DATA_WIDTH=32)
+Compiling module xil_defaultlib.register(DATA_WIDTH=5)
+Compiling module xil_defaultlib.register(DATA_WIDTH=1)
+Compiling module xil_defaultlib.register(DATA_WIDTH=3)
+Compiling module xil_defaultlib.register(DATA_WIDTH=6)
+Compiling module xil_defaultlib.control_forward
+Compiling module xil_defaultlib.MC_ALU
+Compiling module xil_defaultlib.register(DATA_WIDTH=4)
+Compiling module xil_defaultlib.MemAccess_Generator
+Compiling module xil_defaultlib.register(DATA_WIDTH=68)
+Compiling module xil_defaultlib.memory_controller_2
+Compiling module xil_defaultlib.mode_controller_3(IS_FIRST_ROW=1...
+Compiling module xil_defaultlib.master_core(MCMEM_SIZE=4096)
+Compiling module xil_defaultlib.memory(DATA_WIDTH=212)
+Compiling module xil_defaultlib.decoder_stage_IF(SCRATCHPAD_SIZE...
+Compiling module xil_defaultlib.compare_not_equal_0
+Compiling module xil_defaultlib.adder(SCRATCHPAD_SIZE=512)
+Compiling module xil_defaultlib.agu(SCRATCHPAD_SIZE=512)
+Compiling module xil_defaultlib.memory(EN_OUT_FF=1)
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.register(DATA_WIDTH=9)
+Compiling module xil_defaultlib.decoder_stage_ML
+Compiling module xil_defaultlib.decoder_stage_Conv
+Compiling module xil_defaultlib.multiply_accumulate
+Compiling module xil_defaultlib.lookuptable_module_0
+Compiling module xil_defaultlib.lookuptable_module_1
+Compiling module xil_defaultlib.decoder_stage_NL
+Compiling module xil_defaultlib.LI
+Compiling module xil_defaultlib.decoder_stage_PL
+Compiling module xil_defaultlib.decoder_stage_MS
+Compiling module xil_defaultlib.memory_default
+Compiling module xil_defaultlib.slave_core(SCRATCHPAD_SIZE=512)
+Compiling module xil_defaultlib.ASIP
+Compiling module xil_defaultlib.mode_controller_3(IS_FIRST_ROW=0...
+Compiling module xil_defaultlib.master_core(MCMEM_SIZE=4096,IS_F...
+Compiling module xil_defaultlib.ASIP(IS_FIRST_ROW=0)
+Compiling module xil_defaultlib.ASIP_one_one_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ASIP_one_one_tb_behav

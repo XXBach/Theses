@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ASIP_one_one_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ASIP_one_one_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="893.363334 us"></ZoomStartTime>
+      <ZoomEndTime time="1,029.963335 us"></ZoomEndTime>
+      <Cursor1Time time="916.130000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="139" />
+   <wvobject fp_name="/ASIP_one_one_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/uut1/controller/PC" type="array">
+      <obj_property name="ElementShortName">PC[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/uut1/controller/\genblk1.mode_ctr /state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_MCMem_1" type="logic">
+      <obj_property name="ElementShortName">wen_MCMem_1</obj_property>
+      <obj_property name="ObjectShortName">wen_MCMem_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_MCMem_2" type="logic">
+      <obj_property name="ElementShortName">wen_MCMem_2</obj_property>
+      <obj_property name="ObjectShortName">wen_MCMem_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/uut2/controller/PC" type="array">
+      <obj_property name="ElementShortName">PC[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/uut2/controller/\genblk1.mode_ctr /state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/uut2/dnn_core/SC/addr_r" type="array">
+      <obj_property name="ElementShortName">addr_r[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_w_MCMem_1" type="array">
+      <obj_property name="ElementShortName">addr_w_MCMem_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_w_MCMem_1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_w_MCMem_2" type="array">
+      <obj_property name="ElementShortName">addr_w_MCMem_2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_w_MCMem_2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_w_MCMem_1" type="array">
+      <obj_property name="ElementShortName">data_w_MCMem_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_MCMem_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_w_MCMem_2" type="array">
+      <obj_property name="ElementShortName">data_w_MCMem_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_MCMem_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/vsync_in_1" type="logic">
+      <obj_property name="ElementShortName">vsync_in_1</obj_property>
+      <obj_property name="ObjectShortName">vsync_in_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/vsync_in_2" type="logic">
+      <obj_property name="ElementShortName">vsync_in_2</obj_property>
+      <obj_property name="ObjectShortName">vsync_in_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/hsync_in_1" type="logic">
+      <obj_property name="ElementShortName">hsync_in_1</obj_property>
+      <obj_property name="ObjectShortName">hsync_in_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/hsync_in_2" type="logic">
+      <obj_property name="ElementShortName">hsync_in_2</obj_property>
+      <obj_property name="ObjectShortName">hsync_in_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/vsync_out_1" type="logic">
+      <obj_property name="ElementShortName">vsync_out_1</obj_property>
+      <obj_property name="ObjectShortName">vsync_out_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/vsync_out_2" type="logic">
+      <obj_property name="ElementShortName">vsync_out_2</obj_property>
+      <obj_property name="ObjectShortName">vsync_out_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/hsync_out_1" type="logic">
+      <obj_property name="ElementShortName">hsync_out_1</obj_property>
+      <obj_property name="ObjectShortName">hsync_out_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/hsync_out_2" type="logic">
+      <obj_property name="ElementShortName">hsync_out_2</obj_property>
+      <obj_property name="ObjectShortName">hsync_out_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/start_DNN_core_1" type="logic">
+      <obj_property name="ElementShortName">start_DNN_core_1</obj_property>
+      <obj_property name="ObjectShortName">start_DNN_core_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/start_DNN_core_2" type="logic">
+      <obj_property name="ElementShortName">start_DNN_core_2</obj_property>
+      <obj_property name="ObjectShortName">start_DNN_core_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/end_flag_1" type="logic">
+      <obj_property name="ElementShortName">end_flag_1</obj_property>
+      <obj_property name="ObjectShortName">end_flag_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/end_flag_2" type="logic">
+      <obj_property name="ElementShortName">end_flag_2</obj_property>
+      <obj_property name="ObjectShortName">end_flag_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P0_in_1" type="array">
+      <obj_property name="ElementShortName">command_P0_in_1[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P0_in_1[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P0_in_2" type="array">
+      <obj_property name="ElementShortName">command_P0_in_2[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P0_in_2[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P0_in_1" type="array">
+      <obj_property name="ElementShortName">data_P0_in_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P0_in_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P0_in_2" type="array">
+      <obj_property name="ElementShortName">data_P0_in_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P0_in_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P0_out_1" type="array">
+      <obj_property name="ElementShortName">command_P0_out_1[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P0_out_1[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P0_out_2" type="array">
+      <obj_property name="ElementShortName">command_P0_out_2[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P0_out_2[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P0_out_1" type="array">
+      <obj_property name="ElementShortName">data_P0_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P0_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P0_out_2" type="array">
+      <obj_property name="ElementShortName">data_P0_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P0_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P1_in_1" type="array">
+      <obj_property name="ElementShortName">command_P1_in_1[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P1_in_1[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P1_in_2" type="array">
+      <obj_property name="ElementShortName">command_P1_in_2[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P1_in_2[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P1_in_1" type="array">
+      <obj_property name="ElementShortName">data_P1_in_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P1_in_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P1_in_2" type="array">
+      <obj_property name="ElementShortName">data_P1_in_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P1_in_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P1_out_1" type="array">
+      <obj_property name="ElementShortName">command_P1_out_1[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P1_out_1[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/command_P1_out_2" type="array">
+      <obj_property name="ElementShortName">command_P1_out_2[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P1_out_2[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P1_out_1" type="array">
+      <obj_property name="ElementShortName">data_P1_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P1_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_P1_out_2" type="array">
+      <obj_property name="ElementShortName">data_P1_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P1_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_OM_1" type="array">
+      <obj_property name="ElementShortName">addr_OM_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_OM_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_OM_2" type="array">
+      <obj_property name="ElementShortName">addr_OM_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_OM_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_OM_1" type="logic">
+      <obj_property name="ElementShortName">wen_OM_1</obj_property>
+      <obj_property name="ObjectShortName">wen_OM_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_OM_2" type="logic">
+      <obj_property name="ElementShortName">wen_OM_2</obj_property>
+      <obj_property name="ObjectShortName">wen_OM_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/ren_OM_1" type="logic">
+      <obj_property name="ElementShortName">ren_OM_1</obj_property>
+      <obj_property name="ObjectShortName">ren_OM_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/ren_OM_2" type="logic">
+      <obj_property name="ElementShortName">ren_OM_2</obj_property>
+      <obj_property name="ObjectShortName">ren_OM_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_r_OM_1" type="array">
+      <obj_property name="ElementShortName">data_r_OM_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r_OM_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_r_OM_2" type="array">
+      <obj_property name="ElementShortName">data_r_OM_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r_OM_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_w_OM_1" type="array">
+      <obj_property name="ElementShortName">data_w_OM_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_OM_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_w_OM_2" type="array">
+      <obj_property name="ElementShortName">data_w_OM_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_OM_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/ren_OM_inst_1" type="logic">
+      <obj_property name="ElementShortName">ren_OM_inst_1</obj_property>
+      <obj_property name="ObjectShortName">ren_OM_inst_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/ren_OM_inst_2" type="logic">
+      <obj_property name="ElementShortName">ren_OM_inst_2</obj_property>
+      <obj_property name="ObjectShortName">ren_OM_inst_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/inst_r_OM_1" type="array">
+      <obj_property name="ElementShortName">inst_r_OM_1[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_r_OM_1[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/inst_r_OM_2" type="array">
+      <obj_property name="ElementShortName">inst_r_OM_2[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_r_OM_2[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_DNN_1" type="array">
+      <obj_property name="ElementShortName">addr_DNN_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_DNN_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_DNN_2" type="array">
+      <obj_property name="ElementShortName">addr_DNN_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_DNN_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_inst_mem_1" type="logic">
+      <obj_property name="ElementShortName">wen_inst_mem_1</obj_property>
+      <obj_property name="ObjectShortName">wen_inst_mem_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_inst_mem_2" type="logic">
+      <obj_property name="ElementShortName">wen_inst_mem_2</obj_property>
+      <obj_property name="ObjectShortName">wen_inst_mem_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_IB_1" type="array">
+      <obj_property name="ElementShortName">wen_IB_1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wen_IB_1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_IB_2" type="array">
+      <obj_property name="ElementShortName">wen_IB_2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wen_IB_2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_KSP_1" type="array">
+      <obj_property name="ElementShortName">wen_KSP_1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wen_KSP_1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_KSP_2" type="array">
+      <obj_property name="ElementShortName">wen_KSP_2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wen_KSP_2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_BSP_1" type="logic">
+      <obj_property name="ElementShortName">wen_BSP_1</obj_property>
+      <obj_property name="ObjectShortName">wen_BSP_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/wen_BSP_2" type="logic">
+      <obj_property name="ElementShortName">wen_BSP_2</obj_property>
+      <obj_property name="ObjectShortName">wen_BSP_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/ren_OB_1" type="logic">
+      <obj_property name="ElementShortName">ren_OB_1</obj_property>
+      <obj_property name="ObjectShortName">ren_OB_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/ren_OB_2" type="logic">
+      <obj_property name="ElementShortName">ren_OB_2</obj_property>
+      <obj_property name="ObjectShortName">ren_OB_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_w_DNN_1" type="array">
+      <obj_property name="ElementShortName">data_w_DNN_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_DNN_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_w_DNN_2" type="array">
+      <obj_property name="ElementShortName">data_w_DNN_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_DNN_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/inst_w_DNN_1" type="array">
+      <obj_property name="ElementShortName">inst_w_DNN_1[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_w_DNN_1[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/inst_w_DNN_2" type="array">
+      <obj_property name="ElementShortName">inst_w_DNN_2[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_w_DNN_2[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/done_transfer_prev_1" type="logic">
+      <obj_property name="ElementShortName">done_transfer_prev_1</obj_property>
+      <obj_property name="ObjectShortName">done_transfer_prev_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/done_transfer_prev_2" type="logic">
+      <obj_property name="ElementShortName">done_transfer_prev_2</obj_property>
+      <obj_property name="ObjectShortName">done_transfer_prev_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/done_transfer_1" type="logic">
+      <obj_property name="ElementShortName">done_transfer_1</obj_property>
+      <obj_property name="ObjectShortName">done_transfer_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/done_transfer_2" type="logic">
+      <obj_property name="ElementShortName">done_transfer_2</obj_property>
+      <obj_property name="ObjectShortName">done_transfer_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OB_1" type="array">
+      <obj_property name="ElementShortName">addr_write_OB_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OB_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OB_2" type="array">
+      <obj_property name="ElementShortName">addr_write_OB_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OB_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_read_OB_1" type="array">
+      <obj_property name="ElementShortName">addr_read_OB_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_OB_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_read_OB_2" type="array">
+      <obj_property name="ElementShortName">addr_read_OB_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_OB_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/select_1" type="array">
+      <obj_property name="ElementShortName">select_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">select_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/select_2" type="array">
+      <obj_property name="ElementShortName">select_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">select_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/NEOA_read_out_1" type="array">
+      <obj_property name="ElementShortName">NEOA_read_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NEOA_read_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/NEOA_read_out_2" type="array">
+      <obj_property name="ElementShortName">NEOA_read_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NEOA_read_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/sel_lut_1" type="logic">
+      <obj_property name="ElementShortName">sel_lut_1</obj_property>
+      <obj_property name="ObjectShortName">sel_lut_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/sel_lut_2" type="logic">
+      <obj_property name="ElementShortName">sel_lut_2</obj_property>
+      <obj_property name="ObjectShortName">sel_lut_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/li_data_out_1" type="array">
+      <obj_property name="ElementShortName">li_data_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">li_data_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/li_data_out_2" type="array">
+      <obj_property name="ElementShortName">li_data_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">li_data_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/POA_read_out_1" type="array">
+      <obj_property name="ElementShortName">POA_read_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">POA_read_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/POA_read_out_2" type="array">
+      <obj_property name="ElementShortName">POA_read_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">POA_read_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OSP_ML_out_1" type="array">
+      <obj_property name="ElementShortName">addr_write_OSP_ML_out_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OSP_ML_out_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OSP_ML_out_2" type="array">
+      <obj_property name="ElementShortName">addr_write_OSP_ML_out_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OSP_ML_out_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OSP_CONV_out_1" type="array">
+      <obj_property name="ElementShortName">addr_write_OSP_CONV_out_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OSP_CONV_out_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OSP_CONV_out_2" type="array">
+      <obj_property name="ElementShortName">addr_write_OSP_CONV_out_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OSP_CONV_out_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_FCSP_ML_out_1" type="array">
+      <obj_property name="ElementShortName">addr_write_FCSP_ML_out_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_FCSP_ML_out_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_FCSP_ML_out_2" type="array">
+      <obj_property name="ElementShortName">addr_write_FCSP_ML_out_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_FCSP_ML_out_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OB_ML_out_1" type="array">
+      <obj_property name="ElementShortName">addr_write_OB_ML_out_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OB_ML_out_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_write_OB_ML_out_2" type="array">
+      <obj_property name="ElementShortName">addr_write_OB_ML_out_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OB_ML_out_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_read_OB_ML_out_1" type="array">
+      <obj_property name="ElementShortName">addr_read_OB_ML_out_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_OB_ML_out_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_read_OB_ML_out_2" type="array">
+      <obj_property name="ElementShortName">addr_read_OB_ML_out_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_OB_ML_out_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/OB_read_out_1" type="array">
+      <obj_property name="ElementShortName">OB_read_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OB_read_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/OB_read_out_2" type="array">
+      <obj_property name="ElementShortName">OB_read_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OB_read_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/MEM_read_out_1" type="array">
+      <obj_property name="ElementShortName">MEM_read_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_read_out_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/MEM_read_out_2" type="array">
+      <obj_property name="ElementShortName">MEM_read_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_read_out_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_read_IB_1" type="array">
+      <obj_property name="ElementShortName">addr_read_IB_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_IB_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/addr_read_IB_2" type="array">
+      <obj_property name="ElementShortName">addr_read_IB_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_IB_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/done_DNN_1" type="logic">
+      <obj_property name="ElementShortName">done_DNN_1</obj_property>
+      <obj_property name="ObjectShortName">done_DNN_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/done_DNN_2" type="logic">
+      <obj_property name="ElementShortName">done_DNN_2</obj_property>
+      <obj_property name="ObjectShortName">done_DNN_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/DSIP_done_1" type="logic">
+      <obj_property name="ElementShortName">DSIP_done_1</obj_property>
+      <obj_property name="ObjectShortName">DSIP_done_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/DSIP_done_2" type="logic">
+      <obj_property name="ElementShortName">DSIP_done_2</obj_property>
+      <obj_property name="ObjectShortName">DSIP_done_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/hsync_in_all" type="logic">
+      <obj_property name="ElementShortName">hsync_in_all</obj_property>
+      <obj_property name="ObjectShortName">hsync_in_all</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_read_from_OM_1" type="array">
+      <obj_property name="ElementShortName">data_read_from_OM_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read_from_OM_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/inst_read_from_OM_1" type="array">
+      <obj_property name="ElementShortName">inst_read_from_OM_1[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_read_from_OM_1[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/data_read_from_OM_2" type="array">
+      <obj_property name="ElementShortName">data_read_from_OM_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read_from_OM_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/inst_read_from_OM_2" type="array">
+      <obj_property name="ElementShortName">inst_read_from_OM_2[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_read_from_OM_2[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/file" type="array">
+      <obj_property name="ElementShortName">file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/r" type="array">
+      <obj_property name="ElementShortName">r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/line_number" type="array">
+      <obj_property name="ElementShortName">line_number[31:0]</obj_property>
+      <obj_property name="ObjectShortName">line_number[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/line" type="array">
+      <obj_property name="ElementShortName">line[255:0]</obj_property>
+      <obj_property name="ObjectShortName">line[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/temp_data" type="array">
+      <obj_property name="ElementShortName">temp_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_conv0::file " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_conv0::r " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_conv0::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_conv0::line " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_conv0::temp_data " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::temp_data [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::temp_data [15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_conv0::file " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_conv0::r " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_conv0::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_conv0::line " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_conv0::temp_data " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::temp_data [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::temp_data [15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_dense0::file " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense0::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense0::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_dense0::r " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense0::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense0::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_dense0::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense0::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense0::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_dense0::line " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense0::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense0::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_weights_dense0::temp_data " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense0::temp_data [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense0::temp_data [15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_dense0::file " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense0::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense0::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_dense0::r " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense0::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense0::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_dense0::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense0::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense0::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/\\read_biases_dense0::line " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense0::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense0::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_one_one_tb/uut2/controller/MCMem/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+</wave_config>

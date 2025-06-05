@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu May 22 09:43:03 2025
+# Process ID: 18640
+# Current directory: E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.runs/impl_1
+# Command line: vivado.exe -log slave_core.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source slave_core.tcl -notrace
+# Log file: E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.runs/impl_1/slave_core.vdi
+# Journal file: E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.runs/impl_1\vivado.jou
+# Running On        :LAPTOP-K5G8HKBB
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz
+# CPU Frequency     :3110 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16965 MB
+# Swap memory       :7516 MB
+# Total Virtual     :24481 MB
+# Available Virtual :5483 MB
+#-----------------------------------------------------------
+source slave_core.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 535.434 ; gain = 198.422
+Command: link_design -top slave_core -part xc7vx485tffg1761-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Device 21-9227] Part: xc7vx485tffg1761-2 does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.575 . Memory (MB): peak = 1212.141 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8146 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/constrs_1/new/slave_core.xdc]
+Finished Parsing XDC File [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/constrs_1/new/slave_core.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1458.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2640 instances were transformed.
+  RAM64M => RAM64M (RAMD64E(x4)): 2544 instances
+  RAM64M => RAM64M (inverted pins: WCLK) (RAMD64E(x4)): 80 instances
+  RAM64X1D => RAM64X1D (inverted pins: WCLK) (RAMD64E(x2)): 16 instances
+
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:32 . Memory (MB): peak = 1458.023 ; gain = 922.590
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[0] has multiple drivers: uut1/controller/mctrl/command_temp_reg[0]/Q, and uut1/controller/mctrl/command_temp_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[10] has multiple drivers: uut1/controller/mctrl/command_temp_reg[10]/Q, and uut1/controller/mctrl/command_temp_reg[10]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[11] has multiple drivers: uut1/controller/mctrl/command_temp_reg[11]__0/Q, and uut1/controller/mctrl/command_temp_reg[11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[12] has multiple drivers: uut1/controller/mctrl/command_temp_reg[12]/Q, and uut1/controller/mctrl/command_temp_reg[12]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[13] has multiple drivers: uut1/controller/mctrl/command_temp_reg[13]__0/Q, and uut1/controller/mctrl/command_temp_reg[13]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[14] has multiple drivers: uut1/controller/mctrl/command_temp_reg[14]/Q, and uut1/controller/mctrl/command_temp_reg[14]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[15] has multiple drivers: uut1/controller/mctrl/command_temp_reg[15]/Q, and uut1/controller/mctrl/command_temp_reg[15]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[16] has multiple drivers: uut1/controller/mctrl/command_temp_reg[16]/Q, and uut1/controller/mctrl/command_temp_reg[16]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[17] has multiple drivers: uut1/controller/mctrl/command_temp_reg[17]__0/Q, and uut1/controller/mctrl/command_temp_reg[17]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[18] has multiple drivers: uut1/controller/mctrl/command_temp_reg[18]/Q, and uut1/controller/mctrl/command_temp_reg[18]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[19] has multiple drivers: uut1/controller/mctrl/command_temp_reg[19]/Q, and uut1/controller/mctrl/command_temp_reg[19]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[1] has multiple drivers: uut1/controller/mctrl/command_temp_reg[1]/Q, and uut1/controller/mctrl/command_temp_reg[1]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[20] has multiple drivers: uut1/controller/mctrl/command_temp_reg[20]__0/Q, and uut1/controller/mctrl/command_temp_reg[20]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[21] has multiple drivers: uut1/controller/mctrl/command_temp_reg[21]__0/Q, and uut1/controller/mctrl/command_temp_reg[21]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[22] has multiple drivers: uut1/controller/mctrl/command_temp_reg[22]/Q, and uut1/controller/mctrl/command_temp_reg[22]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[23] has multiple drivers: uut1/controller/mctrl/command_temp_reg[23]/Q, and uut1/controller/mctrl/command_temp_reg[23]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[24] has multiple drivers: uut1/controller/mctrl/command_temp_reg[24]/Q, and uut1/controller/mctrl/command_temp_reg[24]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[25] has multiple drivers: uut1/controller/mctrl/command_temp_reg[25]__0/Q, and uut1/controller/mctrl/command_temp_reg[25]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[26] has multiple drivers: uut1/controller/mctrl/command_temp_reg[26]/Q, and uut1/controller/mctrl/command_temp_reg[26]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[27] has multiple drivers: uut1/controller/mctrl/command_temp_reg[27]/Q, and uut1/controller/mctrl/command_temp_reg[27]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[28] has multiple drivers: uut1/controller/mctrl/command_temp_reg[28]__0/Q, and uut1/controller/mctrl/command_temp_reg[28]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[29] has multiple drivers: uut1/controller/mctrl/command_temp_reg[29]/Q, and uut1/controller/mctrl/command_temp_reg[29]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[2] has multiple drivers: uut1/controller/mctrl/command_temp_reg[2]/Q, and uut1/controller/mctrl/command_temp_reg[2]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[30] has multiple drivers: uut1/controller/mctrl/command_temp_reg[30]__0/Q, and uut1/controller/mctrl/command_temp_reg[30]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[31] has multiple drivers: uut1/controller/mctrl/command_temp_reg[31]__0/Q, and uut1/controller/mctrl/command_temp_reg[31]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[32] has multiple drivers: uut1/controller/mctrl/command_temp_reg[32]/Q, and uut1/controller/mctrl/command_temp_reg[32]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[33] has multiple drivers: uut1/controller/mctrl/command_temp_reg[33]/Q, and uut1/controller/mctrl/command_temp_reg[33]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[34] has multiple drivers: uut1/controller/mctrl/command_temp_reg[34]/Q, and uut1/controller/mctrl/command_temp_reg[34]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[35] has multiple drivers: uut1/controller/mctrl/command_temp_reg[35]__0/Q, and uut1/controller/mctrl/command_temp_reg[35]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[36] has multiple drivers: uut1/controller/mctrl/command_temp_reg[36]/Q, and uut1/controller/mctrl/command_temp_reg[36]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[37] has multiple drivers: uut1/controller/mctrl/command_temp_reg[37]__0/Q, and uut1/controller/mctrl/command_temp_reg[37]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[38] has multiple drivers: uut1/controller/mctrl/command_temp_reg[38]__0/Q, and uut1/controller/mctrl/command_temp_reg[38]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[39] has multiple drivers: uut1/controller/mctrl/command_temp_reg[39]/Q, and uut1/controller/mctrl/command_temp_reg[39]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[3] has multiple drivers: uut1/controller/mctrl/command_temp_reg[3]__0/Q, and uut1/controller/mctrl/command_temp_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[40] has multiple drivers: uut1/controller/mctrl/command_temp_reg[40]/Q, and uut1/controller/mctrl/command_temp_reg[40]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[41] has multiple drivers: uut1/controller/mctrl/command_temp_reg[41]/Q, and uut1/controller/mctrl/command_temp_reg[41]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[42] has multiple drivers: uut1/controller/mctrl/command_temp_reg[42]/Q, and uut1/controller/mctrl/command_temp_reg[42]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[43] has multiple drivers: uut1/controller/mctrl/command_temp_reg[43]/Q, and uut1/controller/mctrl/command_temp_reg[43]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[44] has multiple drivers: uut1/controller/mctrl/command_temp_reg[44]__0/Q, and uut1/controller/mctrl/command_temp_reg[44]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[45] has multiple drivers: uut1/controller/mctrl/command_temp_reg[45]/Q, and uut1/controller/mctrl/command_temp_reg[45]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[46] has multiple drivers: uut1/controller/mctrl/command_temp_reg[46]__0/Q, and uut1/controller/mctrl/command_temp_reg[46]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[47] has multiple drivers: uut1/controller/mctrl/command_temp_reg[47]__0/Q, and uut1/controller/mctrl/command_temp_reg[47]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[48] has multiple drivers: uut1/controller/mctrl/command_temp_reg[48]/Q, and uut1/controller/mctrl/command_temp_reg[48]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[49] has multiple drivers: uut1/controller/mctrl/command_temp_reg[49]/Q, and uut1/controller/mctrl/command_temp_reg[49]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[4] has multiple drivers: uut1/controller/mctrl/command_temp_reg[4]__0/Q, and uut1/controller/mctrl/command_temp_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[50] has multiple drivers: uut1/controller/mctrl/command_temp_reg[50]/Q, and uut1/controller/mctrl/command_temp_reg[50]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[51] has multiple drivers: uut1/controller/mctrl/command_temp_reg[51]/Q, and uut1/controller/mctrl/command_temp_reg[51]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[52] has multiple drivers: uut1/controller/mctrl/command_temp_reg[52]__0/Q, and uut1/controller/mctrl/command_temp_reg[52]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[53] has multiple drivers: uut1/controller/mctrl/command_temp_reg[53]/Q, and uut1/controller/mctrl/command_temp_reg[53]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[54] has multiple drivers: uut1/controller/mctrl/command_temp_reg[54]__0/Q, and uut1/controller/mctrl/command_temp_reg[54]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[55] has multiple drivers: uut1/controller/mctrl/command_temp_reg[55]/Q, and uut1/controller/mctrl/command_temp_reg[55]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[56] has multiple drivers: uut1/controller/mctrl/command_temp_reg[56]/Q, and uut1/controller/mctrl/command_temp_reg[56]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[57] has multiple drivers: uut1/controller/mctrl/command_temp_reg[57]/Q, and uut1/controller/mctrl/command_temp_reg[57]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[58] has multiple drivers: uut1/controller/mctrl/command_temp_reg[58]/Q, and uut1/controller/mctrl/command_temp_reg[58]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[59] has multiple drivers: uut1/controller/mctrl/command_temp_reg[59]/Q, and uut1/controller/mctrl/command_temp_reg[59]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[5] has multiple drivers: uut1/controller/mctrl/command_temp_reg[5]/Q, and uut1/controller/mctrl/command_temp_reg[5]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[60] has multiple drivers: uut1/controller/mctrl/command_temp_reg[60]/Q, and uut1/controller/mctrl/command_temp_reg[60]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[61] has multiple drivers: uut1/controller/mctrl/command_temp_reg[61]__0/Q, and uut1/controller/mctrl/command_temp_reg[61]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[62] has multiple drivers: uut1/controller/mctrl/command_temp_reg[62]__0/Q, and uut1/controller/mctrl/command_temp_reg[62]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[63] has multiple drivers: uut1/controller/mctrl/command_temp_reg[63]/Q, and uut1/controller/mctrl/command_temp_reg[63]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[64] has multiple drivers: uut1/controller/mctrl/command_temp_reg[64]__0/Q, and uut1/controller/mctrl/command_temp_reg[64]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[65] has multiple drivers: uut1/controller/mctrl/command_temp_reg[65]/Q, and uut1/controller/mctrl/command_temp_reg[65]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[66] has multiple drivers: uut1/controller/mctrl/command_temp_reg[66]__0/Q, and uut1/controller/mctrl/command_temp_reg[66]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[67] has multiple drivers: uut1/controller/mctrl/command_temp_reg[67]__0/Q, and uut1/controller/mctrl/command_temp_reg[67]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[6] has multiple drivers: uut1/controller/mctrl/command_temp_reg[6]/Q, and uut1/controller/mctrl/command_temp_reg[6]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[7] has multiple drivers: uut1/controller/mctrl/command_temp_reg[7]__0/Q, and uut1/controller/mctrl/command_temp_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[8] has multiple drivers: uut1/controller/mctrl/command_temp_reg[8]/Q, and uut1/controller/mctrl/command_temp_reg[8]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/command_temp[9] has multiple drivers: uut1/controller/mctrl/command_temp_reg[9]__0/Q, and uut1/controller/mctrl/command_temp_reg[9]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[0] has multiple drivers: uut1/controller/mctrl/data_temp_reg[0]/Q, and uut1/controller/mctrl/data_temp_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[10] has multiple drivers: uut1/controller/mctrl/data_temp_reg[10]/Q, and uut1/controller/mctrl/data_temp_reg[10]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[11] has multiple drivers: uut1/controller/mctrl/data_temp_reg[11]/Q, and uut1/controller/mctrl/data_temp_reg[11]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[12] has multiple drivers: uut1/controller/mctrl/data_temp_reg[12]/Q, and uut1/controller/mctrl/data_temp_reg[12]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[13] has multiple drivers: uut1/controller/mctrl/data_temp_reg[13]/Q, and uut1/controller/mctrl/data_temp_reg[13]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[14] has multiple drivers: uut1/controller/mctrl/data_temp_reg[14]/Q, and uut1/controller/mctrl/data_temp_reg[14]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[15] has multiple drivers: uut1/controller/mctrl/data_temp_reg[15]__0/Q, and uut1/controller/mctrl/data_temp_reg[15]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[1] has multiple drivers: uut1/controller/mctrl/data_temp_reg[1]__0/Q, and uut1/controller/mctrl/data_temp_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[2] has multiple drivers: uut1/controller/mctrl/data_temp_reg[2]/Q, and uut1/controller/mctrl/data_temp_reg[2]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[3] has multiple drivers: uut1/controller/mctrl/data_temp_reg[3]/Q, and uut1/controller/mctrl/data_temp_reg[3]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[4] has multiple drivers: uut1/controller/mctrl/data_temp_reg[4]__0/Q, and uut1/controller/mctrl/data_temp_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[5] has multiple drivers: uut1/controller/mctrl/data_temp_reg[5]/Q, and uut1/controller/mctrl/data_temp_reg[5]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[6] has multiple drivers: uut1/controller/mctrl/data_temp_reg[6]/Q, and uut1/controller/mctrl/data_temp_reg[6]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[7] has multiple drivers: uut1/controller/mctrl/data_temp_reg[7]__0/Q, and uut1/controller/mctrl/data_temp_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[8] has multiple drivers: uut1/controller/mctrl/data_temp_reg[8]/Q, and uut1/controller/mctrl/data_temp_reg[8]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut1/controller/mctrl/data_temp[9] has multiple drivers: uut1/controller/mctrl/data_temp_reg[9]__0/Q, and uut1/controller/mctrl/data_temp_reg[9]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[0] has multiple drivers: uut2/controller/mctrl/command_temp_reg[0]/Q, and uut2/controller/mctrl/command_temp_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[10] has multiple drivers: uut2/controller/mctrl/command_temp_reg[10]/Q, and uut2/controller/mctrl/command_temp_reg[10]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[11] has multiple drivers: uut2/controller/mctrl/command_temp_reg[11]/Q, and uut2/controller/mctrl/command_temp_reg[11]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[12] has multiple drivers: uut2/controller/mctrl/command_temp_reg[12]/Q, and uut2/controller/mctrl/command_temp_reg[12]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[13] has multiple drivers: uut2/controller/mctrl/command_temp_reg[13]/Q, and uut2/controller/mctrl/command_temp_reg[13]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[14] has multiple drivers: uut2/controller/mctrl/command_temp_reg[14]/Q, and uut2/controller/mctrl/command_temp_reg[14]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[15] has multiple drivers: uut2/controller/mctrl/command_temp_reg[15]/Q, and uut2/controller/mctrl/command_temp_reg[15]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[16] has multiple drivers: uut2/controller/mctrl/command_temp_reg[16]__0/Q, and uut2/controller/mctrl/command_temp_reg[16]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[17] has multiple drivers: uut2/controller/mctrl/command_temp_reg[17]__0/Q, and uut2/controller/mctrl/command_temp_reg[17]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[18] has multiple drivers: uut2/controller/mctrl/command_temp_reg[18]/Q, and uut2/controller/mctrl/command_temp_reg[18]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[19] has multiple drivers: uut2/controller/mctrl/command_temp_reg[19]/Q, and uut2/controller/mctrl/command_temp_reg[19]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[1] has multiple drivers: uut2/controller/mctrl/command_temp_reg[1]/Q, and uut2/controller/mctrl/command_temp_reg[1]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[20] has multiple drivers: uut2/controller/mctrl/command_temp_reg[20]__0/Q, and uut2/controller/mctrl/command_temp_reg[20]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[21] has multiple drivers: uut2/controller/mctrl/command_temp_reg[21]/Q, and uut2/controller/mctrl/command_temp_reg[21]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[22] has multiple drivers: uut2/controller/mctrl/command_temp_reg[22]__0/Q, and uut2/controller/mctrl/command_temp_reg[22]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net uut2/controller/mctrl/command_temp[23] has multiple drivers: uut2/controller/mctrl/command_temp_reg[23]/Q, and uut2/controller/mctrl/command_temp_reg[23]__0/Q.
+INFO: [Common 17-14] Message 'DRC MDRV-1' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Project 1-461] DRC finished with 168 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1471.441 ; gain = 13.418
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 0 Warnings, 0 Critical Warnings and 101 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Thu May 22 09:43:45 2025...

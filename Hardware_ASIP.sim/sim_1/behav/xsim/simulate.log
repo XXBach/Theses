@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+OM_mem_1_inst[0] = 00000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000
+Input feature 0: 003a
+Weight 0: 008c
+bias 0: 0016
+Weight dense 0: ff6e
+Bias dens0 0: 0083
+PC vừa chạm mốc 116 tại thời điểm 122245000 -> Đếm: 1
+PC vừa chạm mốc 116 tại thời điểm 126775000 -> Đếm: 2
+Đã đọc xong file: E:/codeDSIP_DoAn1/150425/model_tiny_test_110525/4591/4591_hex.txt
+PC vừa chạm mốc 116 tại thời điểm 131305000 -> Đếm: 3
+Đã đọc xong file: E:/codeDSIP_DoAn1/150425/model_tiny_test_110525/5748/5748_hex.txt
+PC vừa chạm mốc 116 tại thời điểm 135835000 -> Đếm: 4
+Đã đọc xong file: E:/codeDSIP_DoAn1/150425/model_tiny_test_110525/7208/7208_hex.txt
+PC vừa chạm mốc 116 tại thời điểm 140365000 -> Đếm: 5
+Đã đọc xong file: E:/codeDSIP_DoAn1/150425/model_tiny_test_110525/8235/8235_hex.txt
+PC vừa chạm mốc 116 tại thời điểm 144895000 -> Đếm: 6
+[STOP] Kết thúc đo tại PC = 00000000000000000000000101011110, time = 1027525000
+==== Tổng kết thời gian đo ====
+️ Thời gian DNN_Core:      81200000 ns
+  Thời gian Controller:    394630000 ns
+  Tổng thời gian đo:      475830000 ns
+$stop called at time : 1027525 ns : File "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_one_one_tb.sv" Line 700

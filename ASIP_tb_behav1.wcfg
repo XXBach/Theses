@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ASIP_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ASIP_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,232,067.847 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,235,482.848 ns"></ZoomEndTime>
+      <Cursor1Time time="4,237,817.847 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="115" />
+   <wvobject fp_name="/ASIP_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/wen_MCMem" type="logic">
+      <obj_property name="ElementShortName">wen_MCMem</obj_property>
+      <obj_property name="ObjectShortName">wen_MCMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_w_MCMem" type="array">
+      <obj_property name="ElementShortName">addr_w_MCMem[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_w_MCMem[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_w_MCMem" type="array">
+      <obj_property name="ElementShortName">data_w_MCMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_MCMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/uut/controller/MCMem/addr_r" type="array">
+      <obj_property name="ElementShortName">addr_r[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/uut/controller/\genblk1.mode_ctr /state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/uut/dnn_core/SC/addr_r" type="array">
+      <obj_property name="ElementShortName">addr_r[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_r[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/vsync_in" type="logic">
+      <obj_property name="ElementShortName">vsync_in</obj_property>
+      <obj_property name="ObjectShortName">vsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/hsync_in" type="logic">
+      <obj_property name="ElementShortName">hsync_in</obj_property>
+      <obj_property name="ObjectShortName">hsync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/all_DNN_done_signal" type="logic">
+      <obj_property name="ElementShortName">all_DNN_done_signal</obj_property>
+      <obj_property name="ObjectShortName">all_DNN_done_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/vsync_out" type="logic">
+      <obj_property name="ElementShortName">vsync_out</obj_property>
+      <obj_property name="ObjectShortName">vsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/hsync_out" type="logic">
+      <obj_property name="ElementShortName">hsync_out</obj_property>
+      <obj_property name="ObjectShortName">hsync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/start_DNN_core" type="logic">
+      <obj_property name="ElementShortName">start_DNN_core</obj_property>
+      <obj_property name="ObjectShortName">start_DNN_core</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/end_flag" type="logic">
+      <obj_property name="ElementShortName">end_flag</obj_property>
+      <obj_property name="ObjectShortName">end_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/command_P0_in" type="array">
+      <obj_property name="ElementShortName">command_P0_in[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P0_in[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_P0_in" type="array">
+      <obj_property name="ElementShortName">data_P0_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P0_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/command_P0_out" type="array">
+      <obj_property name="ElementShortName">command_P0_out[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P0_out[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_P0_out" type="array">
+      <obj_property name="ElementShortName">data_P0_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P0_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/command_P1_in" type="array">
+      <obj_property name="ElementShortName">command_P1_in[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P1_in[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_P1_in" type="array">
+      <obj_property name="ElementShortName">data_P1_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P1_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/command_P1_out" type="array">
+      <obj_property name="ElementShortName">command_P1_out[67:0]</obj_property>
+      <obj_property name="ObjectShortName">command_P1_out[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_P1_out" type="array">
+      <obj_property name="ElementShortName">data_P1_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_P1_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_OM" type="array">
+      <obj_property name="ElementShortName">addr_OM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_OM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/wen_OM" type="logic">
+      <obj_property name="ElementShortName">wen_OM</obj_property>
+      <obj_property name="ObjectShortName">wen_OM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/ren_OM" type="logic">
+      <obj_property name="ElementShortName">ren_OM</obj_property>
+      <obj_property name="ObjectShortName">ren_OM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_r_OM" type="array">
+      <obj_property name="ElementShortName">data_r_OM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r_OM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_w_OM" type="array">
+      <obj_property name="ElementShortName">data_w_OM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_OM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/ren_OM_inst" type="logic">
+      <obj_property name="ElementShortName">ren_OM_inst</obj_property>
+      <obj_property name="ObjectShortName">ren_OM_inst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/inst_r_OM" type="array">
+      <obj_property name="ElementShortName">inst_r_OM[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_r_OM[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_DNN" type="array">
+      <obj_property name="ElementShortName">addr_DNN[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_DNN[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/wen_inst_mem" type="logic">
+      <obj_property name="ElementShortName">wen_inst_mem</obj_property>
+      <obj_property name="ObjectShortName">wen_inst_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/wen_IB" type="array">
+      <obj_property name="ElementShortName">wen_IB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wen_IB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/wen_KSP" type="array">
+      <obj_property name="ElementShortName">wen_KSP[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wen_KSP[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/wen_BSP" type="logic">
+      <obj_property name="ElementShortName">wen_BSP</obj_property>
+      <obj_property name="ObjectShortName">wen_BSP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/ren_OB" type="logic">
+      <obj_property name="ElementShortName">ren_OB</obj_property>
+      <obj_property name="ObjectShortName">ren_OB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_w_DNN" type="array">
+      <obj_property name="ElementShortName">data_w_DNN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_w_DNN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/inst_w_DNN" type="array">
+      <obj_property name="ElementShortName">inst_w_DNN[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_w_DNN[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/done_transfer_prev" type="logic">
+      <obj_property name="ElementShortName">done_transfer_prev</obj_property>
+      <obj_property name="ObjectShortName">done_transfer_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/done_transfer" type="logic">
+      <obj_property name="ElementShortName">done_transfer</obj_property>
+      <obj_property name="ObjectShortName">done_transfer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_write_OB" type="array">
+      <obj_property name="ElementShortName">addr_write_OB[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OB[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_read_OB" type="array">
+      <obj_property name="ElementShortName">addr_read_OB[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_OB[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/select" type="array">
+      <obj_property name="ElementShortName">select[7:0]</obj_property>
+      <obj_property name="ObjectShortName">select[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/NEOA_read_out" type="array">
+      <obj_property name="ElementShortName">NEOA_read_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NEOA_read_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/sel_lut" type="logic">
+      <obj_property name="ElementShortName">sel_lut</obj_property>
+      <obj_property name="ObjectShortName">sel_lut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/li_data_out" type="array">
+      <obj_property name="ElementShortName">li_data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">li_data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/POA_read_out" type="array">
+      <obj_property name="ElementShortName">POA_read_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">POA_read_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_write_OSP_ML_out" type="array">
+      <obj_property name="ElementShortName">addr_write_OSP_ML_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OSP_ML_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_write_OSP_CONV_out" type="array">
+      <obj_property name="ElementShortName">addr_write_OSP_CONV_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OSP_CONV_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_write_FCSP_ML_out" type="array">
+      <obj_property name="ElementShortName">addr_write_FCSP_ML_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_FCSP_ML_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_write_OB_ML_out" type="array">
+      <obj_property name="ElementShortName">addr_write_OB_ML_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_write_OB_ML_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_read_OB_ML_out" type="array">
+      <obj_property name="ElementShortName">addr_read_OB_ML_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_OB_ML_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/OB_read_out" type="array">
+      <obj_property name="ElementShortName">OB_read_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OB_read_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/MEM_read_out" type="array">
+      <obj_property name="ElementShortName">MEM_read_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_read_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/addr_read_IB" type="array">
+      <obj_property name="ElementShortName">addr_read_IB[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read_IB[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/done_DNN" type="logic">
+      <obj_property name="ElementShortName">done_DNN</obj_property>
+      <obj_property name="ObjectShortName">done_DNN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/DSIP_done" type="logic">
+      <obj_property name="ElementShortName">DSIP_done</obj_property>
+      <obj_property name="ObjectShortName">DSIP_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/data_read_from_OM" type="array">
+      <obj_property name="ElementShortName">data_read_from_OM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read_from_OM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/inst_read_from_OM" type="array">
+      <obj_property name="ElementShortName">inst_read_from_OM[211:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_read_from_OM[211:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/stop_pc_mc" type="array">
+      <obj_property name="ElementShortName">stop_pc_mc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stop_pc_mc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/stop_pc_sc" type="array">
+      <obj_property name="ElementShortName">stop_pc_sc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stop_pc_sc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/file" type="array">
+      <obj_property name="ElementShortName">file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/r" type="array">
+      <obj_property name="ElementShortName">r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/line_number" type="array">
+      <obj_property name="ElementShortName">line_number[31:0]</obj_property>
+      <obj_property name="ObjectShortName">line_number[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/line" type="array">
+      <obj_property name="ElementShortName">line[255:0]</obj_property>
+      <obj_property name="ObjectShortName">line[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/temp_data" type="array">
+      <obj_property name="ElementShortName">temp_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::file " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::r " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::line " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::temp_data " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::temp_data [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::temp_data [15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::file " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::r " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::line " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::temp_data " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::temp_data [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::temp_data [15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::file " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::r " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::line " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::temp_data " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::temp_data [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::temp_data [15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::file " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::file [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::file [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::r " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::r [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::line_number " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::line_number [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::line_number [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::line " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::line [255:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::line [255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::temp_data " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::temp_data [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::temp_data [15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/INSTRUCTION_WIDTH" type="array">
+      <obj_property name="ElementShortName">INSTRUCTION_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTRUCTION_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/MCMEM_SIZE" type="array">
+      <obj_property name="ElementShortName">MCMEM_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MCMEM_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/DATA_WIDTH_MC" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH_MC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH_MC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/DATA_WIDTH_DNN_CORE" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH_DNN_CORE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH_DNN_CORE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/DECIMAL_BIT" type="array">
+      <obj_property name="ElementShortName">DECIMAL_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DECIMAL_BIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/INSTRUCTION_WIDTH_DNN_CORE" type="array">
+      <obj_property name="ElementShortName">INSTRUCTION_WIDTH_DNN_CORE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTRUCTION_WIDTH_DNN_CORE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/BUFFER_SIZE" type="array">
+      <obj_property name="ElementShortName">BUFFER_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BUFFER_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/SCRATCHPAD_SIZE" type="array">
+      <obj_property name="ElementShortName">SCRATCHPAD_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SCRATCHPAD_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/BLOCKS_PER_ROW" type="array">
+      <obj_property name="ElementShortName">BLOCKS_PER_ROW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLOCKS_PER_ROW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/MODEL" type="array">
+      <obj_property name="ElementShortName">MODEL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MODEL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/IS_FIRST_ROW" type="array">
+      <obj_property name="ElementShortName">IS_FIRST_ROW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IS_FIRST_ROW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/IS_FIRST_COL" type="array">
+      <obj_property name="ElementShortName">IS_FIRST_COL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IS_FIRST_COL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/ARRAY_SIZE" type="array">
+      <obj_property name="ElementShortName">ARRAY_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARRAY_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/OFFSET" type="array">
+      <obj_property name="ElementShortName">OFFSET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OFFSET[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::DATA_WIDTH " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::DATA_WIDTH [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::DATA_WIDTH [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::ARRAY_SIZE " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::ARRAY_SIZE [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::ARRAY_SIZE [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_conv0::OFFSET " type="array">
+      <obj_property name="ElementShortName">\\read_weights_conv0::OFFSET [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_conv0::OFFSET [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::DATA_WIDTH " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::DATA_WIDTH [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::DATA_WIDTH [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::ARRAY_SIZE " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::ARRAY_SIZE [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::ARRAY_SIZE [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_conv0::OFFSET " type="array">
+      <obj_property name="ElementShortName">\\read_biases_conv0::OFFSET [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_conv0::OFFSET [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::DATA_WIDTH " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::DATA_WIDTH [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::DATA_WIDTH [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::ARRAY_SIZE " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::ARRAY_SIZE [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::ARRAY_SIZE [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_weights_dense::OFFSET " type="array">
+      <obj_property name="ElementShortName">\\read_weights_dense::OFFSET [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_weights_dense::OFFSET [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::DATA_WIDTH " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::DATA_WIDTH [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::DATA_WIDTH [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::ARRAY_SIZE " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::ARRAY_SIZE [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::ARRAY_SIZE [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ASIP_tb/\\read_biases_dense::OFFSET " type="array">
+      <obj_property name="ElementShortName">\\read_biases_dense::OFFSET [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\\read_biases_dense::OFFSET [31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,53 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/slave_core_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module slave_core_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/testcode.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testcode
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/agu_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module agu_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/LI_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LI_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/look_up_table_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module look_up_table_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/multiply_accumulate_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiply_accumulate_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/memory_single_port_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_memory_single_port
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/register_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/memory_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_ff_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/test1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test1_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/MODEcontroller_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MODEcontroller_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/memory_controller_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_controller_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/queue_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module queue_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/read_hex_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_hex_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/master_core_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_core_tb
+WARNING: [VRFC 10-3248] data object 'start_DNN_core' is already declared [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/master_core_tb.sv:64]
+WARNING: [VRFC 10-9364] second declaration of 'start_DNN_core' is ignored [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/master_core_tb.sv:64]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASIP_tb
+INFO: [VRFC 10-311] analyzing module read_input_features
+INFO: [VRFC 10-311] analyzing module read_weights_conv0
+INFO: [VRFC 10-311] analyzing module read_biases_conv0
+INFO: [VRFC 10-311] analyzing module read_weights_dense
+INFO: [VRFC 10-311] analyzing module read_biases_dense
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_one_one_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASIP_one_one_tb
+INFO: [VRFC 10-311] analyzing module read_input_features
+INFO: [VRFC 10-311] analyzing module read_weights_conv0
+INFO: [VRFC 10-311] analyzing module read_biases_conv0
+INFO: [VRFC 10-311] analyzing module read_weights_dense0
+INFO: [VRFC 10-311] analyzing module read_biases_dense0
+WARNING: [VRFC 10-3824] variable 'curr_state' must explicitly be declared as automatic or static [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_one_one_tb.sv:680]
+WARNING: [VRFC 10-3824] variable 'now' must explicitly be declared as automatic or static [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_one_one_tb.sv:681]
+WARNING: [VRFC 10-3824] variable 'delta' must explicitly be declared as automatic or static [E:/codeDSIP_DoAn1/150425/Hardware_ASIP_14042025/Hardware_ASIP/Hardware_ASIP.srcs/sim_1/new/ASIP_one_one_tb.sv:682]

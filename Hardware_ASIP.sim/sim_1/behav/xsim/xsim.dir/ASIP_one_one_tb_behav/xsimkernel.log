@@ -1,0 +1,7 @@
+Running: xsim.dir/ASIP_one_one_tb_behav/xsimk.exe -simmode gui -wdb ASIP_one_one_tb_behav.wdb -simrunnum 0 -socket 59061
+Design successfully loaded
+Design Loading Memory Usage: 19332 KB (Peak: 19332 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 31208 KB (Peak: 31208 KB)
+Simulation CPU Usage: 2437 ms
