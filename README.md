@@ -5,7 +5,7 @@ An ASIP ( Application Specific Instruction-Set Processor ) to execute full-flow 
 
 An Idea for DNN-SIP is shown below
 
-![DNN partitioning](https://github.com/XXBach/Theses/blob/main/DSIPpipeline_Eng.pdf)
+![DNN partitioning](https://github.com/XXBach/Theses/blob/main/DSIPpipeline_Eng.jpg)
 
 A neural network (NN) is generally a deep learning model inspired by the way the human brain processes information. In a typical NN, each layer consists of multiple nodes that receive inputs from the previous layer and produce outputs for the next. A network is considered “deep” (DNN) when it contains more than one hidden layer between input and output, enabling it to solve more complex tasks.
 
