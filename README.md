@@ -73,7 +73,8 @@ The design will be functional verified by using a small DNN model that can be ac
 
 # ASIC synthesis
 
-For those who want to synthesis on ASIC to compare this project to some others, I have tried to synthesize by using Cadence Genus, using 45nm technology, PDK 45nm generic, PSC belong to slow_basicCells_1v2.lib, the max frequency is set to 125MHz and gls verification. The result received is okay but is not out-performed compare to other articles since I used self-design memory instead of IP that should be used for this kind of problem, additionally I am not using any buses standard or DMA to fasten the time.
+For those who want to synthesis on ASIC to compare this project to some others, I have tried to synthesize by using Cadence Genus, using 45nm technology, PDK 45nm generic, PSC belong to slow_basicCells_1v2.lib, the max frequency is set to 125MHz and gls verification, all of those are scheduled by a TCL script which will be put in the same folder as results. The results received are put in ASIC_Theses folder, which is good enough for a University Theses but is not out-performed compare to other articles since I used self-design memory instead of IP that should be used for this kind of problem, additionally I am not using any buses standard or DMA to fasten the time.
 
+ASIC_Thesis Folder URL: 
 # Note
 
